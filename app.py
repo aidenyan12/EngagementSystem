@@ -1,4 +1,3 @@
-i"""
 
 Streamlit Real-time Audience Voting App
 
@@ -34,6 +33,7 @@ import streamlit as st
 
 def load_votes_from_github(repo: str, path: str, branch: str = "main") -> Tuple[pd.DataFrame, Optional[str]]:
     """Load the votes CSV from GitHub.
+
 
     Parameters
     ----------
