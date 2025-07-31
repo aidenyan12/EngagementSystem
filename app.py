@@ -1,198 +1,142 @@
-
+"""
 Streamlit Real-time Audience Voting App
 
-This application provides a simple interface for collecting votes from
-audience members in real‑time. It offers four configurable choices,
-tracks voter identifiers to prevent duplicate submissions, and stores
-results in a CSV file hosted on GitHub.
-
-Requirements
-------------
-* streamlit
-* pandas
-* requests
-* streamlit‑autorefresh (optional, for automatic updates)
-
-The app uses a GitHub personal access token (PAT) stored in the
-``GITHUB_TOKEN`` environment variable to read and update the CSV file in
-the repository. Without a token, the app falls back to reading a local
-``votes.csv`` file and cannot persist votes across sessions.
+This app allows audience members to vote in real-time. It offers four
+configurable choices, tracks who voted by a user-specified identifier,
+prevents duplicate votes, and stores votes in a CSV file on GitHub.
+Votes and results are visible to all users.
 """
 
-
-import base64
-import json
 import os
-from datetime import datetime
-from typing import Tuple, Optional
-
-import pandas as pd
+import io
+import base64
+import datetime
 import requests
+import pandas as pd
 import streamlit as st
+from streamlit_autorefresh import st_autorefresh
+
+# Details for the GitHub repository and file used to store votes
+GITHUB_REPO = os.environ.get("GITHUB_REPO", "aidenyan12/EngagementSystem")
+VOTES_FILE = os.environ.get("VOTES_FILE", "votes.csv")
+BRANCH_NAME = os.environ.get("BRANCH_NAME", "main")
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")  # PAT for committing changes
 
 
-def load_votes_from_github(repo: str, path: str, branch: str = "main") -> Tuple[pd.DataFrame, Optional[str]]:
-    """Load the votes CSV from GitHub.
-
-
-    Parameters
-    ----------
-    repo : str
-        The ``owner/repo`` string.
-    path : str
-        Path to the CSV file in the repository.
-    branch : str, optional
-        Branch where the file is stored, by default "main".
+def load_votes_from_github():
+    """Fetch the CSV file containing votes from GitHub.
 
     Returns
     -------
-    (pd.DataFrame, Optional[str])
-        A tuple containing the dataframe and the file's SHA. If the file
-        does not exist, the dataframe will be empty and SHA will be None.
+    pandas.DataFrame
+        DataFrame of recorded votes with columns [identifier, choice, timestamp]
+    str or None
+        SHA of the existing file on GitHub, needed for updating the file.
     """
-    token = os.environ.get("GITHUB_TOKEN")
-    headers = {"Authorization": f"token {token}"} if token else {}
-    url = f"https://api.github.com/repos/{repo}/contents/{path}?ref={branch}"
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{VOTES_FILE}?ref={BRANCH_NAME}"
+    headers = {}
+    if GITHUB_TOKEN:
+        headers["Authorization"] = f"token {GITHUB_TOKEN}"
     response = requests.get(url, headers=headers)
+
     if response.status_code == 200:
-        content = response.json()
-        csv_str = base64.b64decode(content["content"]).decode("utf-8")
-        
-        sha = content.get("sha")
+        file_data = response.json()
+        csv_content = base64.b64decode(file_data['content']).decode('utf-8')
+        df = pd.read_csv(io.StringIO(csv_content))
+        sha = file_data['sha']
         return df, sha
     else:
-        # Return an empty DataFrame if file doesn't exist or fetch fails
-        empty_df = pd.DataFrame(columns=["identifier", "choice", "timestamp"])
-        return empty_df, None
+        # If the file doesn't exist yet or an error occurred, return an empty DataFrame
+        return pd.DataFrame(columns=["identifier", "choice", "timestamp"]), None
 
 
-def update_votes_on_github(
-    repo: str, path: str, df: pd.DataFrame, sha: Optional[str], branch: str = "main"
-) -> bool:
-    """Update the votes CSV on GitHub.
-
-    This function writes the provided dataframe back to GitHub using the
-    contents API. It requires the ``GITHUB_TOKEN`` environment variable
-    to be set with a token that has ``repo`` scope.
+def update_votes_on_github(df: pd.DataFrame, sha: str | None) -> bool:
+    """Push the updated votes DataFrame back to GitHub.
 
     Parameters
     ----------
-    repo : str
-        The ``owner/repo`` string.
-    path : str
-        Path to the CSV file in the repository.
-    df : pd.DataFrame
-        Dataframe containing vote records.
-    sha : Optional[str]
-        The SHA of the existing file. Should be ``None`` if the file is
-        being created for the first time.
-    branch : str, optional
-        Branch where the file is stored, by default "main".
+    df : pandas.DataFrame
+        The DataFrame to upload.
+    sha : str or None
+        The SHA of the existing file on GitHub; required to update existing file.
 
     Returns
     -------
     bool
-        True if the update succeeded, False otherwise.
+        True if the update was successful, False otherwise.
     """
-    token = os.environ.get("GITHUB_TOKEN")
-    if not token:
-        return False
-    headers = {"Authorization": f"token {token}"}
-    url = f"https://api.github.com/repos/{repo}/contents/{path}"
+    # Convert DataFrame to CSV
     csv_str = df.to_csv(index=False)
-    b64_content = base64.b64encode(csv_str.encode()).decode()
-    commit_message = f"Update votes {datetime.utcnow().isoformat()}"
+    b64_content = base64.b64encode(csv_str.encode('utf-8')).decode('utf-8')
+
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{VOTES_FILE}"
     data = {
-        "message": commit_message,
+        "message": "Update votes",
         "content": b64_content,
-        "branch": branch,
-        # Only include ``sha`` if updating an existing file
-        **({"sha": sha} if sha else {}),
+        "branch": BRANCH_NAME,
     }
-    response = requests.put(url, headers=headers, data=json.dumps(data))
+    if sha:
+        data["sha"] = sha
+
+    headers = {"Authorization": f"token {GITHUB_TOKEN}"}
+    response = requests.put(url, headers=headers, json=data)
+
     return response.status_code in (200, 201)
 
 
-def main() -> None:
-    """Main entry point for the Streamlit app."""
-    st.set_page_config(page_title="Real‑Time Audience Voting", page_icon="🗳️", layout="wide")
-    st.title("Real‑Time Audience Voting App")
+def main():
+    st.set_page_config(page_title="Real-Time Voting App", page_icon="🗳️", layout="centered")
+    st.title("Real-Time Audience Voting")
     st.write(
-        "Please enter your name or email and select one of the options below to cast your vote. "
-        "Each participant can vote only once."
+        "Participate by entering your name or identifier and selecting one of the four choices below. "
+        "Results update in near real-time."
     )
 
-    # Configuration: repository and CSV path
-    repo = "aidenyan12/EngagementSystem"
-    csv_path = "votes.csv"
-    branch = "main"
- 
-    # Four configurable choices
- 
-    choices = [
-        "Choice A",
-        "Choice B",
-        "Choice C",
-        "Choice D",
-    ]
+    # Automatically refresh the page every 5 seconds
+    st_autorefresh(interval=5_000, limit=None, key="auto-refresh")
 
-    # Input fields
-    identifier = st.text_input("Your name or email:", max_chars=100)
-    selected_choice = st.radio("Select an option:", choices, key="choice_radio")
+    # Default choices; can be overridden via Streamlit secrets
+    default_choices = ["Choice A", "Choice B", "Choice C", "Choice D"]
+    choices = st.secrets.get("choices", default_choices)
 
     # Load current votes
-    votes_df, current_sha = load_votes_from_github(repo, csv_path, branch)
+    df, sha = load_votes_from_github()
 
-    # Submit vote button
-    if st.button("Submit Vote"):
-        if not identifier.strip():
-            st.error("Please provide your name or email before submitting your vote.")
-        else:
-            # Check for duplicate
-            if identifier.strip() in votes_df["identifier"].values:
-                st.warning("You have already cast a vote. Duplicate votes are not allowed.")
+    with st.form("vote_form", clear_on_submit=False):
+        identifier = st.text_input("Enter your name or identifier:", max_chars=100).strip()
+        choice = st.radio("Select your choice:", options=choices)
+        submitted = st.form_submit_button("Submit Vote")
+
+        if submitted:
+            # Validate input
+            if not identifier:
+                st.error("Please enter your name or identifier.")
+            elif identifier in df["identifier"].values:
+                st.warning("You have already voted. Duplicate votes are not allowed.")
             else:
-                # Append the new vote
-                new_row = {
-                    "identifier": identifier.strip(),
-                    "choice": selected_choice,
-                    "timestamp": datetime.utcnow().isoformat(),
-                }
-                updated_df = pd.concat([votes_df, pd.DataFrame([new_row])], ignore_index=True)
-                # Try to update on GitHub
-                success = update_votes_on_github(repo, csv_path, updated_df, current_sha, branch)
-                if success:
-                    st.success("Your vote has been recorded! Thank you for participating.")
-                    # Reload data after successful update
-                    votes_df, current_sha = load_votes_from_github(repo, csv_path, branch)
+                timestamp = datetime.datetime.utcnow().isoformat()
+                new_row = {"identifier": identifier, "choice": choice, "timestamp": timestamp}
+                df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
+
+                if GITHUB_TOKEN:
+                    success = update_votes_on_github(df, sha)
+                    if success:
+                        st.success("Your vote has been recorded!")
+                    else:
+                        st.error("There was an error saving your vote. Please try again later.")
                 else:
-                    # Fallback: save locally and inform user of limited persistence
-                    updated_df.to_csv(csv_path, index=False)
-                    st.info(
-                        "Your vote has been recorded locally, but it could not be saved to GitHub. "
-                        "Please ensure a valid GITHUB_TOKEN secret is configured in your Streamlit deployment."
-                    )
+                    st.error("GitHub token is not configured. Votes will not be saved.")
 
-    # Display results section
-    st.subheader("Current Results")
-    if not votes_df.empty:
-        # Ensure all choices are represented
-        counts = votes_df["choice"].value_counts().reindex(choices, fill_value=0)
-        # Display a bar chart
-        st.bar_chart(counts)
-        # Show the raw votes table if the user wants to inspect it
-        with st.expander("Show raw vote data"):
-            st.dataframe(votes_df)
+    # Display results
+    st.header("Current Results")
+    if not df.empty:
+        # Count votes for each choice and align to defined choices order
+        vote_counts = df['choice'].value_counts().reindex(choices, fill_value=0)
+        st.bar_chart(vote_counts)
+        st.subheader("Detailed Votes")
+        st.dataframe(df)
     else:
-        st.info("No votes have been recorded yet. Be the first to vote!")
-
-    # Auto‑refresh results every 5 seconds (optional)
-    try:
-        from streamlit_autorefresh import st_autorefresh
-
-        st_autorefresh(interval=5000, key="datarefresh")
-    except ImportError:
-        pass
+        st.info("No votes recorded yet.")
 
 
 if __name__ == "__main__":
