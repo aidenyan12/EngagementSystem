@@ -1,0 +1,20 @@
+{
+  "core_staff": [
+    {
+      "name": "Dr Kal Ng",
+      "title": "Professional Practitioner"
+    },
+    {
+      "name": "Mr Lawrence Shen",
+      "title": "Professional Practitioner"
+    },
+    {
+      "name": "Mr Aiden Yan",
+      "title": "Senior Software Engineer"
+    },
+    {
+      "name": "Dr Jenny Kwok",
+      "title": "Lab Coordinator"
+    }
+  ]
+} 

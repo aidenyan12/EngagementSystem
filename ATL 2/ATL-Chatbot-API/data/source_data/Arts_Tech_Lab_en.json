@@ -1,0 +1,172 @@
+{
+  "The University of Hong Kong Arts Technology Lab": {
+    "Overview": {
+      "Name": "ARTS TECHNOLOGY LAB",
+      "Affiliation": "Faculty of Arts, University of Hong Kong",
+      "Positioning": "An innovative platform for cross-border integration of art and technology",
+      "Function": "Support academic research, creativity and knowledge sharing"
+    },
+    "ATL Facilities": [
+      {
+        "Name": "XR Space",
+        "Area": "71.3 square meters",
+        "Capacity": "50 people",
+        "Reservation Rate": "Average monthly",
+        "Features": [
+          "Explore the cross-border exchange between art and technology",
+          "XR Virtual Simulation System",
+          "Projection mapping technology",
+          "Innovative immersive experience and collaboration platform"
+        ],
+        "Virtual Simulation Media Software": [
+          "Unreal Engine",
+          "Unity",
+          "Touchdesigner"
+        ],
+        "Hardware": [
+          "Nvidia RTX 4090 GPU workstation",
+          "6 NEC NP-PE456USL projectors",
+          "Vaddio RoboTRAK Tracking System",
+          "2 workstations with the following configurations: CPU: i7-14700K TRAY, RAM: GSKILL TRIDENT Z5 NEO RGB 32GB X2 J32, GPU: MSI 4080 SUPER VENUS 3X OC 16G"
+        ],
+        "Fees": {
+          "External Organizations": "1000 Hong Kong dollars/hour",
+          "Non-UGC Non-Arts": "800 Hong Kong dollars/hour",
+          "UGC Non-Arts": "600 Hong Kong dollars/hour",
+          "Non-UGC Arts": "450 Hong Kong dollars/hour",
+          "UGC Arts": "Waived"
+        }
+      },
+      {
+        "Name": "Seasonal Science and Technology Room",
+        "Area": "13.2 square meters",
+        "Capacity": "5 people",
+        "Features": ["CAVE system supports first-person video"],
+        "License": "XRCC License",
+        "Fees": {
+          "External Organizations": "500 Hong Kong dollars/hour",
+          "Non-UGC Non-Arts": "400 Hong Kong dollars/hour",
+          "UGC Non-Arts": "300 Hong Kong dollars/hour",
+          "Non-UGC Arts": "200 Hong Kong dollars/hour",
+          "UGC Arts": "Waived"
+        }
+      },
+      {
+        "Name": "Lounge",
+        "Area": "65 square meters",
+        "Capacity": "50 people",
+        "Features": [
+          "Sea view rest area",
+          "Designed for large-scale group gatherings",
+          "A leisurely place with sea views, suitable for informal gatherings",
+          "Multifunctional space",
+          "Activities can be held or as a collaborative work area"
+        ],
+        "Equipment": [
+          "100-inch TV suitable for simplified, screening or proposals (available upon request)",
+          "Simple PA system suitable for small performances or gatherings (available upon request)"
+        ],
+        "Fees": {
+          "External Organizations": "1000 Hong Kong dollars/hour",
+          "Non-UGC Non-Arts": "800 Hong Kong dollars/hour",
+          "UGC Non-Arts": "600 Hong Kong dollars/hour",
+          "Non-UGC Arts": "450 Hong Kong dollars/hour",
+          "UGC Arts": "Waived"
+        }
+      },
+      {
+        "Name": "Large Workstation",
+        "Area": "14.9 square meters",
+        "Capacity": "7 people",
+        "Configuration": "i7-14700K, 64GB RAM, MSI 4080 SUPER",
+        "Fees": {
+          "External Organizations": "400 Hong Kong dollars/hour",
+          "Non-UGC Non-Arts": "300 Hong Kong dollars/hour",
+          "UGC Non-Arts": "200 Hong Kong dollars/hour",
+          "Non-UGC Arts": "150 Hong Kong dollars/hour",
+          "UGC Arts": "Waived"
+        }
+      },
+      {
+        "Name": "Small Workstation",
+        "Area": "8.9 square meters",
+        "Capacity": "5 people",
+        "Fees": {
+          "External Organizations": "400 Hong Kong dollars/hour",
+          "Non-UGC Non-Arts": "300 Hong Kong dollars/hour",
+          "UGC Non-Arts": "200 Hong Kong dollars/hour",
+          "Non-UGC Arts": "150 Hong Kong dollars/hour",
+          "UGC Arts": "Waived"
+        }
+      },
+      {
+        "Name": "Meeting Room",
+        "Area": "14.4 square meters",
+        "Capacity": "6 people",
+        "Features": [
+          "Equipped with high-quality video and audio conference system",
+          "Conduct hybrid conference technology",
+          "Truly versatile"
+        ],
+        "Equipment": [
+          "Samsung WM65B 4K interactive display",
+          "Shure MXA920W-S-60CM Ceiling Magnetic Bucket",
+          "CY-TF65BBC Flip Pro Connection Expansion Pack"
+        ],
+        "Fees": {
+          "External Organizations": "400 Hong Kong dollars/hour",
+          "Non-UGC Non-Arts": "300 Hong Kong dollars/hour",
+          "UGC Non-Arts": "200 Hong Kong dollars/hour",
+          "Non-UGC Arts": "150 Hong Kong dollars/hour",
+          "UGC Arts": "Waived"
+        }
+      }
+    ],
+    "Featured Programs": {
+      "Seed Fund Program": {
+        "Faculty": "Up to HK$100,000",
+        "Students": "Up to HK$50,000",
+        "Purpose": "Academic research publishing and planning cultivation",
+        "Features": [
+          "Provide assistance opportunities",
+          "Assist in the publication of academic research results, application for external grants or long-term planning and cultivation"
+        ],
+        "Review Method": "Application for continuous review"
+      },
+      "Internship Opportunities": [
+        "XR Content Creator: Create interactive and brand-friendly videos for real-life creations",
+        "Software Engineer: Participate in engineering and data fine-tuning of AI prompts to support laboratory projects",
+        "Social Media Editor: Responsible for managing social media in the laboratory to enhance online image"
+      ],
+      "HAGG Community": {
+        "Nature": "ATL Game Developer Community at the University of Hong Kong",
+        "Project": "Nyxia: Echoes of the Dream",
+        "Objectives": [
+          "Create a newcomer-friendly game development community for enthusiasts to exchange ideas, create and learn together",
+          "Through cooperation and gathering activities, establish long-term friendships with community members",
+          "Promote game development culture at the University of Hong Kong and Hong Kong"
+        ],
+        "Nyxia Project Website": "https://haggatl.wixstudio.com/projectnyxia",
+        "HAGG Website": "https://haggatl.wixsite.com/haggatl/about"
+      }
+    },
+    "Events": {
+      "Lecture Series": [
+        "Digital Transformation Talk Series",
+        "Innovation Art Workshop",
+        "AI+Teaching Series"
+      ],
+      "Upcoming Events": [
+        "September 30-October 4, 2024: Unreal Engines and Houdini series",
+        "January 20-21, 2025: Digital Model Seminar"
+      ]
+    },
+    "Contact": {
+      "Address": "Room 35, 4th Floor, Yifu Teaching Floor, 100th Anniversary Campus, Pok Fu Lam, Hong Kong",
+      "Social Media": [
+        "LinkedIn",
+        "Instagram"
+      ]
+    }
+  }
+}

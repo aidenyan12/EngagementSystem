@@ -1,0 +1,11 @@
+{
+  "total_pages_scraped": 50,
+  "total_chunks_created": 74,
+  "source_url": "https://www.atlab.hku.hk/",
+  "config_used": "data/rag_urls.json",
+  "additional_urls": [],
+  "external_domains": [],
+  "chunk_size": 1000,
+  "overlap": 200,
+  "last_updated": "2025-06-24T11:35:16.233085"
+}

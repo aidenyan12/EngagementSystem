@@ -1,0 +1,205 @@
+{
+  "User_Context": {
+    "Nickname": "TestUser"
+  },
+  "_id": "686799ca349940fa99b72de6",
+  "Chat_ID": "CHAT_mcolciivh97ii",
+  "User_ID": "test_user_001",
+  "Messages": [
+    {
+      "Text": "hello",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T09:07:43.221Z",
+      "_id": "686799df349940fa99b72e15"
+    },
+    {
+      "Text": "Hey! 😄💻 What's on your mind about ATL? 🎯",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T09:07:43.287Z",
+      "_id": "686799df349940fa99b72e16"
+    },
+    {
+      "Text": "events",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T09:07:46.525Z",
+      "_id": "686799e2349940fa99b72e2a"
+    },
+    {
+      "Text": "**ATL Events & Programs** 🎪\n\n__🎯 Ongoing Series & Programs__\n• **AI + Teaching Series**\n• **InnoArts: Microcredentialing and Workshops**\n• **Transformations: Lecture Series**\n\n__🛠️ Workshops & Talks__\n• **[Feb 11, 2025] VR Filmmaking Workshop with Kath Dooley**\n• **[Feb 27, 2025] AI + Teaching Series: Developing Metacognitive Skills for Artists, Writers & Researchers in the Age of AI**\n• **[Nov 07/16, 2024] Gen AI Workshop**\n• **[Oct 24, 2024] Game Development Talk Series: Professor. Jussi Pekka HOLOPAINEN & Ms. Abby HO**\n• **[Sep 30 – Oct 04, 2024] Unreal Engine and Houdini Series**\n\n__🌐 External Events__\n• (Not yet ready, is coming soon)\n\n_For detailed information about any event, please visit the ATL website or contact us directly!_ ✨\n\n**🌐 Learn More Online**\n\n**Events & Exhibitions** 🎪\n\nDiscover upcoming events and exhibitions\n\n🔗 **Learn More**: https://www.atlab.hku.hk/events/",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T09:07:46.559Z",
+      "_id": "686799e2349940fa99b72e2b"
+    },
+    {
+      "Text": "booking",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T09:07:51.061Z",
+      "_id": "686799e7349940fa99b72e43"
+    },
+    {
+      "Text": "**ATL Booking Information and Requirements** 🎯\n\n__Booking Process__ 📅\n\n• **All bookings must be made through a faculty advisor**\n• **Reservations require 7-30 days advance notice**\n• **Confirmation will be provided within 7 days of request**\n\nBooking is easy! Just ask your faculty advisor to help you reserve a space.\n\n**Summary** 📝: The booking process involves several steps and requirements to ensure smooth facility access! 📅✅\n\n__Booking Requirements__ 📅\n\n• **Minimum charge**: 4 hours per room\n• **Fractions of an hour are treated as full hours**\n• **Faculty advisor must submit the booking request**\n• **Users must be eligible (students with faculty supervision, etc.)**\n\nThese requirements help us keep the lab running smoothly for everyone!\n\n**Summary** 📝: The booking process involves several steps and requirements to ensure smooth facility access! 📅✅\n\n__User Responsibilities__ 🤝\n\n• **Be mindful while using rooms and equipment**\n• **Responsible for any damage to facility property**\n• **Switch off all electronic systems at the end of booking**\n• **Keep the place clean and tidy**\n• **Responsible for any irremovable marks**\n\nWe appreciate your help in keeping ATL a great place for everyone!\n\n**Summary** 📝: These guidelines help ensure everyone has a positive experience and facilities remain in good condition! 🤝🌟\n\n__XR Space__ 📌\n\n**Basic Information** ℹ️\n  • Area: 71.3 square meters\n  • Capacity: 50 people\n\n**Key Features** ✨\n  • Explore the cross-border exchange between art and technology\n  • XR Virtual Simulation System\n\n\nLet me know if you want to book XR Space or need more details!\n\n**Summary** 📝: This section provides important information about XR Space! 📌💡\n\n__Seasonal Science and Technology Room__ 📌\n\n**Basic Information** ℹ️\n  • Area: 13.2 square meters\n  • Capacity: 5 people\n\n**Key Features** ✨\n  • CAVE system supports first-person video\n\n\nLet me know if you want to book Seasonal Science and Technology Room or need more details!\n\n**Summary** 📝: This section provides important information about Seasonal Science and Technology Room! 📌💡\n\n__Lounge__ 📌\n\n**Basic Information** ℹ️\n  • Area: 65 square meters\n  • Capacity: 50 people\n\n**Key Features** ✨\n  • Sea view rest area\n  • Designed for large-scale group gatherings\n\n\nLet me know if you want to book Lounge or need more details!\n\n**Summary** 📝: This section provides important information about Lounge! 📌💡\n\n__Large Workstation__ 📌\n\n**Basic Information** ℹ️\n  • Area: 14.9 square meters\n  • Capacity: 7 people\n\n\nLet me know if you want to book Large Workstation or need more details!\n\n__Small Workstation__ 📌\n\n**Basic Information** ℹ️\n  • Area: 8.9 square meters\n  • Capacity: 5 people\n\n\nLet me know if you want to book Small Workstation or need more details!\n\n__Meeting Room__ 📌\n\n**Basic Information** ℹ️\n  • Area: 14.4 square meters\n  • Capacity: 6 people\n\n**Key Features** ✨\n  • Equipped with high-quality video and audio conference system\n  • Conduct hybrid conference technology\n\n\nLet me know if you want to book Meeting Room or need more details!\n\n**Summary** 📝: This section provides important information about Meeting Room! 📌💡\n\n__Pricing Categories__ 💰\n\n**Pricing** 💰\n  • External Organizations: Highest rates\n  • Non-UGC Non-Arts Programs: High rates\n  • UGC Non-Arts Programs: Medium rates\n  • Non-UGC Arts Programs: Lower rates\n  • UGC Arts Programs: Fees waived\n\n\nWe offer different rates for different user types!\n\n**Summary** 📝: Pricing varies based on user category, with different rates for different types of users! 💰📊\n\n__Contact Information__ 📞\n\n• **Email**: atlab@hku.hk\n• **Phone**: (+852) 3917 5801\n• **Location**: Run Run Shaw Tower (RRST-4.35), Centennial Campus\n\nReach out if you need help with booking or have any questions!\n\n**Summary** 📝: Multiple contact channels are available for questions and support! 📞💬\n\n__Which facility would you like to book?__ 📌\n\nI can provide detailed pricing and information for any specific facility.\n\nIf you have more questions, feel free to ask! 😊\nFor further assistance, you may contact ATL staff. 📧\n\n**🌐 Learn More Online**\n\n**Venue & Pricing Information** 💰\n\nCheck venue availability and pricing details\n\n🔗 **Learn More**: https://www.atlab.hku.hk/venue-info/",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T09:07:51.092Z",
+      "_id": "686799e7349940fa99b72e44"
+    },
+    {
+      "Text": "event",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T09:09:29.138Z",
+      "_id": "68679a49349940fa99b72e60"
+    },
+    {
+      "Text": "**ATL Events & Programs** 🎪\n\n__🎯 Ongoing Series & Programs__\n• **AI + Teaching Series**\n• **InnoArts: Microcredentialing and Workshops**\n• **Transformations: Lecture Series**\n\n__🛠️ Workshops & Talks__\n• **[Feb 11, 2025] VR Filmmaking Workshop with Kath Dooley**\n• **[Feb 27, 2025] AI + Teaching Series: Developing Metacognitive Skills for Artists, Writers & Researchers in the Age of AI**\n• **[Nov 07/16, 2024] Gen AI Workshop**\n• **[Oct 24, 2024] Game Development Talk Series: Professor. Jussi Pekka HOLOPAINEN & Ms. Abby HO**\n• **[Sep 30 – Oct 04, 2024] Unreal Engine and Houdini Series**\n\n__🌐 External Events__\n• (Not yet ready, is coming soon)\n\n_For detailed information about any event, please visit the ATL website or contact us directly!_ ✨\n\n**🌐 Learn More Online**\n\n**Events & Exhibitions** 🎪\n\nDiscover upcoming events and exhibitions\n\n🔗 **Learn More**: https://www.atlab.hku.hk/events/",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T09:09:29.173Z",
+      "_id": "68679a49349940fa99b72e61"
+    },
+    {
+      "Text": "xr space",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T09:09:34.892Z",
+      "_id": "68679a4e349940fa99b72e81"
+    },
+    {
+      "Text": "**XR Space - Facility Details** 🎯\n\n__XR Space - Complete Information__ 📌\n\n**Basic Information** ℹ️\n  • Area: 71.3 square meters\n  • Capacity: 50 people\n\n**Key Features** ✨\n  • Explore the cross-border exchange between art and technology\n  • XR Virtual Simulation System\n  • Projection mapping technology\n  • Innovative immersive experience and collaboration platform\n\n**Hardware** 💻\n  • Nvidia RTX 4090 GPU workstation\n  • 6 NEC NP-PE456USL projectors\n  • Vaddio RoboTRAK Tracking System\n  • 2 workstations with the following configurations: CPU: i7-14700K TRAY, RAM: GSKILL TRIDENT Z5 NEO RGB 32GB X2 J32, GPU: MSI 4080 SUPER VENUS 3X OC 16G\n\n**Software** 🖥️\n  • Unreal Engine\n  • Unity\n  • Touchdesigner\n\n\nLet me know if you want to know about booking procedures or pricing for XR Space!\n\n**Summary** 📝: This section provides important information about XR Space - Complete Information! 📌💡\n\n__Pricing & Fees__ 💰\n\n**Pricing** 💰\n  • External Organizations: 1000 Hong Kong dollars/hour\n  • Non-UGC Non-Arts: 800 Hong Kong dollars/hour\n  • UGC Non-Arts: 600 Hong Kong dollars/hour\n  • Non-UGC Arts: 450 Hong Kong dollars/hour\n  • UGC Arts: Waived\n\n\nRates vary by user category. Contact ATL for booking and payment procedures.\n\n**Summary** 📝: Pricing varies based on user category, with different rates for different types of users! 💰📊\n\nIf you have more questions, feel free to ask! 😊\nFor further assistance, you may contact ATL staff. 📧",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T09:09:34.929Z",
+      "_id": "68679a4e349940fa99b72e82"
+    },
+    {
+      "Text": "event",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T09:15:15.653Z",
+      "_id": "68679ba37a6dfcb623d7b9f8"
+    },
+    {
+      "Text": "**ATL Events & Programs** 🎪\n\n__🎯 Ongoing Series & Programs__\n• **AI + Teaching Series**\n• **InnoArts: Microcredentialing and Workshops**\n• **Transformations: Lecture Series**\n\n__🛠️ Workshops & Talks__\n• **[Feb 11, 2025] VR Filmmaking Workshop with Kath Dooley**\n• **[Feb 27, 2025] AI + Teaching Series: Developing Metacognitive Skills for Artists, Writers & Researchers in the Age of AI**\n• **[Nov 07/16, 2024] Gen AI Workshop**\n• **[Oct 24, 2024] Game Development Talk Series: Professor. Jussi Pekka HOLOPAINEN & Ms. Abby HO**\n• **[Sep 30 – Oct 04, 2024] Unreal Engine and Houdini Series**\n\n__🌐 External Events__\n• (Not yet ready, is coming soon)\n\n_For detailed information about any event, please visit the ATL website or contact us directly!_ ✨\n\n**🌐 Learn More Online**\n\n**Events & Exhibitions** 🎪\n\nDiscover upcoming events and exhibitions\n\n🔗 **Learn More**: https://www.atlab.hku.hk/events/",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T09:15:15.711Z",
+      "_id": "68679ba37a6dfcb623d7b9f9"
+    },
+    {
+      "Text": "booking",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T09:15:21.792Z",
+      "_id": "68679ba97a6dfcb623d7ba21"
+    },
+    {
+      "Text": "**ATL Booking Information and Requirements** 🎯\n\n__Booking Process__ 📅\n\n• **All bookings must be made through a faculty advisor**\n• **Reservations require 7-30 days advance notice**\n• **Confirmation will be provided within 7 days of request**\n\nBooking is easy! Just ask your faculty advisor to help you reserve a space.\n\n**Summary** 📝: The booking process involves several steps and requirements to ensure smooth facility access! 📅✅\n\n__Booking Requirements__ 📅\n\n• **Minimum charge**: 4 hours per room\n• **Fractions of an hour are treated as full hours**\n• **Faculty advisor must submit the booking request**\n• **Users must be eligible (students with faculty supervision, etc.)**\n\nThese requirements help us keep the lab running smoothly for everyone!\n\n**Summary** 📝: The booking process involves several steps and requirements to ensure smooth facility access! 📅✅\n\n__User Responsibilities__ 🤝\n\n• **Be mindful while using rooms and equipment**\n• **Responsible for any damage to facility property**\n• **Switch off all electronic systems at the end of booking**\n• **Keep the place clean and tidy**\n• **Responsible for any irremovable marks**\n\nWe appreciate your help in keeping ATL a great place for everyone!\n\n**Summary** 📝: These guidelines help ensure everyone has a positive experience and facilities remain in good condition! 🤝🌟\n\n__XR Space__ 📌\n\n**Basic Information** ℹ️\n  • Area: 71.3 square meters\n  • Capacity: 50 people\n\n**Key Features** ✨\n  • Explore the cross-border exchange between art and technology\n  • XR Virtual Simulation System\n\n\nLet me know if you want to book XR Space or need more details!\n\n**Summary** 📝: This section provides important information about XR Space! 📌💡\n\n__Seasonal Science and Technology Room__ 📌\n\n**Basic Information** ℹ️\n  • Area: 13.2 square meters\n  • Capacity: 5 people\n\n**Key Features** ✨\n  • CAVE system supports first-person video\n\n\nLet me know if you want to book Seasonal Science and Technology Room or need more details!\n\n**Summary** 📝: This section provides important information about Seasonal Science and Technology Room! 📌💡\n\n__Lounge__ 📌\n\n**Basic Information** ℹ️\n  • Area: 65 square meters\n  • Capacity: 50 people\n\n**Key Features** ✨\n  • Sea view rest area\n  • Designed for large-scale group gatherings\n\n\nLet me know if you want to book Lounge or need more details!\n\n**Summary** 📝: This section provides important information about Lounge! 📌💡\n\n__Large Workstation__ 📌\n\n**Basic Information** ℹ️\n  • Area: 14.9 square meters\n  • Capacity: 7 people\n\n\nLet me know if you want to book Large Workstation or need more details!\n\n__Small Workstation__ 📌\n\n**Basic Information** ℹ️\n  • Area: 8.9 square meters\n  • Capacity: 5 people\n\n\nLet me know if you want to book Small Workstation or need more details!\n\n__Meeting Room__ 📌\n\n**Basic Information** ℹ️\n  • Area: 14.4 square meters\n  • Capacity: 6 people\n\n**Key Features** ✨\n  • Equipped with high-quality video and audio conference system\n  • Conduct hybrid conference technology\n\n\nLet me know if you want to book Meeting Room or need more details!\n\n**Summary** 📝: This section provides important information about Meeting Room! 📌💡\n\n__Pricing Categories__ 💰\n\n**Pricing** 💰\n  • External Organizations: Highest rates\n  • Non-UGC Non-Arts Programs: High rates\n  • UGC Non-Arts Programs: Medium rates\n  • Non-UGC Arts Programs: Lower rates\n  • UGC Arts Programs: Fees waived\n\n\nWe offer different rates for different user types!\n\n**Summary** 📝: Pricing varies based on user category, with different rates for different types of users! 💰📊\n\n__Contact Information__ 📞\n\n• **Email**: atlab@hku.hk\n• **Phone**: (+852) 3917 5801\n• **Location**: Run Run Shaw Tower (RRST-4.35), Centennial Campus\n\nReach out if you need help with booking or have any questions!\n\n**Summary** 📝: Multiple contact channels are available for questions and support! 📞💬\n\n__Which facility would you like to book?__ 📌\n\nI can provide detailed pricing and information for any specific facility.\n\nIf you have more questions, feel free to ask! 😊\nFor further assistance, you may contact ATL staff. 📧\n\n**🌐 Learn More Online**\n\n**Venue & Pricing Information** 💰\n\nCheck venue availability and pricing details\n\n🔗 **Learn More**: https://www.atlab.hku.hk/venue-info/",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T09:15:21.823Z",
+      "_id": "68679ba97a6dfcb623d7ba22"
+    },
+    {
+      "Text": "events",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T09:15:31.065Z",
+      "_id": "68679bb37a6dfcb623d7ba4e"
+    },
+    {
+      "Text": "**ATL Events & Programs** 🎪\n\n__🎯 Ongoing Series & Programs__\n• **AI + Teaching Series**\n• **InnoArts: Microcredentialing and Workshops**\n• **Transformations: Lecture Series**\n\n__🛠️ Workshops & Talks__\n• **[Feb 11, 2025] VR Filmmaking Workshop with Kath Dooley**\n• **[Feb 27, 2025] AI + Teaching Series: Developing Metacognitive Skills for Artists, Writers & Researchers in the Age of AI**\n• **[Nov 07/16, 2024] Gen AI Workshop**\n• **[Oct 24, 2024] Game Development Talk Series: Professor. Jussi Pekka HOLOPAINEN & Ms. Abby HO**\n• **[Sep 30 – Oct 04, 2024] Unreal Engine and Houdini Series**\n\n__🌐 External Events__\n• (Not yet ready, is coming soon)\n\n_For detailed information about any event, please visit the ATL website or contact us directly!_ ✨\n\n**🌐 Learn More Online**\n\n**Events & Exhibitions** 🎪\n\nDiscover upcoming events and exhibitions\n\n🔗 **Learn More**: https://www.atlab.hku.hk/events/",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T09:15:31.100Z",
+      "_id": "68679bb37a6dfcb623d7ba4f"
+    },
+    {
+      "Text": "xr space",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T09:20:05.918Z",
+      "_id": "68679cc571adf5918654614c"
+    },
+    {
+      "Text": "**XR Space - Facility Details** 🎯\n\n__XR Space - Complete Information__ 📌\n\n**Basic Information** ℹ️\n  • Area: 71.3 square meters\n  • Capacity: 50 people\n\n**Key Features** ✨\n  • Explore the cross-border exchange between art and technology\n  • XR Virtual Simulation System\n  • Projection mapping technology\n  • Innovative immersive experience and collaboration platform\n\n**Hardware** 💻\n  • Nvidia RTX 4090 GPU workstation\n  • 6 NEC NP-PE456USL projectors\n  • Vaddio RoboTRAK Tracking System\n  • 2 workstations with the following configurations: CPU: i7-14700K TRAY, RAM: GSKILL TRIDENT Z5 NEO RGB 32GB X2 J32, GPU: MSI 4080 SUPER VENUS 3X OC 16G\n\n**Software** 🖥️\n  • Unreal Engine\n  • Unity\n  • Touchdesigner\n\n\nLet me know if you want to know about booking procedures or pricing for XR Space!\n\n**Summary** 📝: This section provides important information about XR Space - Complete Information! 📌💡\n\n__Pricing & Fees__ 💰\n\n**Pricing** 💰\n  • External Organizations: 1000 Hong Kong dollars/hour\n  • Non-UGC Non-Arts: 800 Hong Kong dollars/hour\n  • UGC Non-Arts: 600 Hong Kong dollars/hour\n  • Non-UGC Arts: 450 Hong Kong dollars/hour\n  • UGC Arts: Waived\n\n\nRates vary by user category. Contact ATL for booking and payment procedures.\n\n**Summary** 📝: Pricing varies based on user category, with different rates for different types of users! 💰📊\n\nIf you have more questions, feel free to ask! 😊\nFor further assistance, you may contact ATL staff. 📧",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T09:20:05.969Z",
+      "_id": "68679cc571adf5918654614d"
+    },
+    {
+      "Text": "booking",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T09:20:12.202Z",
+      "_id": "68679ccc71adf59186546181"
+    },
+    {
+      "Text": "**ATL Booking Information and Requirements** 🎯\n\n__Booking Process__ 📅\n\n• **All bookings must be made through a faculty advisor**\n• **Reservations require 7-30 days advance notice**\n• **Confirmation will be provided within 7 days of request**\n\nBooking is easy! Just ask your faculty advisor to help you reserve a space.\n\n**Summary** 📝: The booking process involves several steps and requirements to ensure smooth facility access! 📅✅\n\n__Booking Requirements__ 📅\n\n• **Minimum charge**: 4 hours per room\n• **Fractions of an hour are treated as full hours**\n• **Faculty advisor must submit the booking request**\n• **Users must be eligible (students with faculty supervision, etc.)**\n\nThese requirements help us keep the lab running smoothly for everyone!\n\n**Summary** 📝: The booking process involves several steps and requirements to ensure smooth facility access! 📅✅\n\n__User Responsibilities__ 🤝\n\n• **Be mindful while using rooms and equipment**\n• **Responsible for any damage to facility property**\n• **Switch off all electronic systems at the end of booking**\n• **Keep the place clean and tidy**\n• **Responsible for any irremovable marks**\n\nWe appreciate your help in keeping ATL a great place for everyone!\n\n**Summary** 📝: These guidelines help ensure everyone has a positive experience and facilities remain in good condition! 🤝🌟\n\n__XR Space__ 📌\n\n**Basic Information** ℹ️\n  • Area: 71.3 square meters\n  • Capacity: 50 people\n\n**Key Features** ✨\n  • Explore the cross-border exchange between art and technology\n  • XR Virtual Simulation System\n\n\nLet me know if you want to book XR Space or need more details!\n\n**Summary** 📝: This section provides important information about XR Space! 📌💡\n\n__Seasonal Science and Technology Room__ 📌\n\n**Basic Information** ℹ️\n  • Area: 13.2 square meters\n  • Capacity: 5 people\n\n**Key Features** ✨\n  • CAVE system supports first-person video\n\n\nLet me know if you want to book Seasonal Science and Technology Room or need more details!\n\n**Summary** 📝: This section provides important information about Seasonal Science and Technology Room! 📌💡\n\n__Lounge__ 📌\n\n**Basic Information** ℹ️\n  • Area: 65 square meters\n  • Capacity: 50 people\n\n**Key Features** ✨\n  • Sea view rest area\n  • Designed for large-scale group gatherings\n\n\nLet me know if you want to book Lounge or need more details!\n\n**Summary** 📝: This section provides important information about Lounge! 📌💡\n\n__Large Workstation__ 📌\n\n**Basic Information** ℹ️\n  • Area: 14.9 square meters\n  • Capacity: 7 people\n\n\nLet me know if you want to book Large Workstation or need more details!\n\n__Small Workstation__ 📌\n\n**Basic Information** ℹ️\n  • Area: 8.9 square meters\n  • Capacity: 5 people\n\n\nLet me know if you want to book Small Workstation or need more details!\n\n__Meeting Room__ 📌\n\n**Basic Information** ℹ️\n  • Area: 14.4 square meters\n  • Capacity: 6 people\n\n**Key Features** ✨\n  • Equipped with high-quality video and audio conference system\n  • Conduct hybrid conference technology\n\n\nLet me know if you want to book Meeting Room or need more details!\n\n**Summary** 📝: This section provides important information about Meeting Room! 📌💡\n\n__Pricing Categories__ 💰\n\n**Pricing** 💰\n  • External Organizations: Highest rates\n  • Non-UGC Non-Arts Programs: High rates\n  • UGC Non-Arts Programs: Medium rates\n  • Non-UGC Arts Programs: Lower rates\n  • UGC Arts Programs: Fees waived\n\n\nWe offer different rates for different user types!\n\n**Summary** 📝: Pricing varies based on user category, with different rates for different types of users! 💰📊\n\n__Contact Information__ 📞\n\n• **Email**: atlab@hku.hk\n• **Phone**: (+852) 3917 5801\n• **Location**: Run Run Shaw Tower (RRST-4.35), Centennial Campus\n\nReach out if you need help with booking or have any questions!\n\n**Summary** 📝: Multiple contact channels are available for questions and support! 📞💬\n\n__Which facility would you like to book?__ 📌\n\nI can provide detailed pricing and information for any specific facility.\n\nIf you have more questions, feel free to ask! 😊\nFor further assistance, you may contact ATL staff. 📧\n\n**🌐 Learn More Online**\n\n**Venue & Pricing Information** 💰\n\nCheck venue availability and pricing details\n\n🔗 **Learn More**: https://www.atlab.hku.hk/venue-info/",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T09:20:12.232Z",
+      "_id": "68679ccc71adf59186546182"
+    },
+    {
+      "Text": "hi",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T09:20:20.320Z",
+      "_id": "68679cd471adf591865461ba"
+    },
+    {
+      "Text": "Hi! 😊🎨 What would you like to know about the Arts Technology Lab? 💫",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T09:20:20.329Z",
+      "_id": "68679cd471adf591865461bb"
+    },
+    {
+      "Text": "booking",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T09:20:49.944Z",
+      "_id": "68679cf171adf59186546231"
+    },
+    {
+      "Text": "**ATL Booking Information and Requirements** 🎯\n\n__Booking Process__ 📅\n\n• **All bookings must be made through a faculty advisor**\n• **Reservations require 7-30 days advance notice**\n• **Confirmation will be provided within 7 days of request**\n\nBooking is easy! Just ask your faculty advisor to help you reserve a space.\n\n**Summary** 📝: The booking process involves several steps and requirements to ensure smooth facility access! 📅✅\n\n__Booking Requirements__ 📅\n\n• **Minimum charge**: 4 hours per room\n• **Fractions of an hour are treated as full hours**\n• **Faculty advisor must submit the booking request**\n• **Users must be eligible (students with faculty supervision, etc.)**\n\nThese requirements help us keep the lab running smoothly for everyone!\n\n**Summary** 📝: The booking process involves several steps and requirements to ensure smooth facility access! 📅✅\n\n__User Responsibilities__ 🤝\n\n• **Be mindful while using rooms and equipment**\n• **Responsible for any damage to facility property**\n• **Switch off all electronic systems at the end of booking**\n• **Keep the place clean and tidy**\n• **Responsible for any irremovable marks**\n\nWe appreciate your help in keeping ATL a great place for everyone!\n\n**Summary** 📝: These guidelines help ensure everyone has a positive experience and facilities remain in good condition! 🤝🌟\n\n__XR Space__ 📌\n\n**Basic Information** ℹ️\n  • Area: 71.3 square meters\n  • Capacity: 50 people\n\n**Key Features** ✨\n  • Explore the cross-border exchange between art and technology\n  • XR Virtual Simulation System\n\n\nLet me know if you want to book XR Space or need more details!\n\n**Summary** 📝: This section provides important information about XR Space! 📌💡\n\n__Seasonal Science and Technology Room__ 📌\n\n**Basic Information** ℹ️\n  • Area: 13.2 square meters\n  • Capacity: 5 people\n\n**Key Features** ✨\n  • CAVE system supports first-person video\n\n\nLet me know if you want to book Seasonal Science and Technology Room or need more details!\n\n**Summary** 📝: This section provides important information about Seasonal Science and Technology Room! 📌💡\n\n__Lounge__ 📌\n\n**Basic Information** ℹ️\n  • Area: 65 square meters\n  • Capacity: 50 people\n\n**Key Features** ✨\n  • Sea view rest area\n  • Designed for large-scale group gatherings\n\n\nLet me know if you want to book Lounge or need more details!\n\n**Summary** 📝: This section provides important information about Lounge! 📌💡\n\n__Large Workstation__ 📌\n\n**Basic Information** ℹ️\n  • Area: 14.9 square meters\n  • Capacity: 7 people\n\n\nLet me know if you want to book Large Workstation or need more details!\n\n__Small Workstation__ 📌\n\n**Basic Information** ℹ️\n  • Area: 8.9 square meters\n  • Capacity: 5 people\n\n\nLet me know if you want to book Small Workstation or need more details!\n\n__Meeting Room__ 📌\n\n**Basic Information** ℹ️\n  • Area: 14.4 square meters\n  • Capacity: 6 people\n\n**Key Features** ✨\n  • Equipped with high-quality video and audio conference system\n  • Conduct hybrid conference technology\n\n\nLet me know if you want to book Meeting Room or need more details!\n\n**Summary** 📝: This section provides important information about Meeting Room! 📌💡\n\n__Pricing Categories__ 💰\n\n**Pricing** 💰\n  • External Organizations: Highest rates\n  • Non-UGC Non-Arts Programs: High rates\n  • UGC Non-Arts Programs: Medium rates\n  • Non-UGC Arts Programs: Lower rates\n  • UGC Arts Programs: Fees waived\n\n\nWe offer different rates for different user types!\n\n**Summary** 📝: Pricing varies based on user category, with different rates for different types of users! 💰📊\n\n__Contact Information__ 📞\n\n• **Email**: atlab@hku.hk\n• **Phone**: (+852) 3917 5801\n• **Location**: Run Run Shaw Tower (RRST-4.35), Centennial Campus\n\nReach out if you need help with booking or have any questions!\n\n**Summary** 📝: Multiple contact channels are available for questions and support! 📞💬\n\n__Which facility would you like to book?__ 📌\n\nI can provide detailed pricing and information for any specific facility.\n\nIf you have more questions, feel free to ask! 😊\nFor further assistance, you may contact ATL staff. 📧\n\n**🌐 Learn More Online**\n\n**Venue & Pricing Information** 💰\n\nCheck venue availability and pricing details\n\n🔗 **Learn More**: https://www.atlab.hku.hk/venue-info/",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T09:20:49.989Z",
+      "_id": "68679cf171adf59186546232"
+    },
+    {
+      "Text": "xr space",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T09:30:46.001Z",
+      "_id": "68679f467ecb24e2ac3bdd69"
+    },
+    {
+      "Text": "**XR Space - Facility Details** 🎯\n\n__XR Space - Complete Information__ 📌\n\n**Basic Information** ℹ️\n  • Area: 71.3 square meters\n  • Capacity: 50 people\n\n**Key Features** ✨\n  • Explore the cross-border exchange between art and technology\n  • XR Virtual Simulation System\n  • Projection mapping technology\n  • Innovative immersive experience and collaboration platform\n\n**Hardware** 💻\n  • Nvidia RTX 4090 GPU workstation\n  • 6 NEC NP-PE456USL projectors\n  • Vaddio RoboTRAK Tracking System\n  • 2 workstations with the following configurations: CPU: i7-14700K TRAY, RAM: GSKILL TRIDENT Z5 NEO RGB 32GB X2 J32, GPU: MSI 4080 SUPER VENUS 3X OC 16G\n\n**Software** 🖥️\n  • Unreal Engine\n  • Unity\n  • Touchdesigner\n\n\nLet me know if you want to know about booking procedures or pricing for XR Space!\n\n**Summary** 📝: This section provides important information about XR Space - Complete Information! 📌💡\n\n__Pricing & Fees__ 💰\n\n**Pricing** 💰\n  • External Organizations: 1000 Hong Kong dollars/hour\n  • Non-UGC Non-Arts: 800 Hong Kong dollars/hour\n  • UGC Non-Arts: 600 Hong Kong dollars/hour\n  • Non-UGC Arts: 450 Hong Kong dollars/hour\n  • UGC Arts: Waived\n\n\nRates vary by user category. Contact ATL for booking and payment procedures.\n\n**Summary** 📝: Pricing varies based on user category, with different rates for different types of users! 💰📊\n\nIf you have more questions, feel free to ask! 😊\nFor further assistance, you may contact ATL staff. 📧",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T09:30:46.069Z",
+      "_id": "68679f467ecb24e2ac3bdd6a"
+    },
+    {
+      "Text": "hello",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T09:30:53.637Z",
+      "_id": "68679f4d7ecb24e2ac3bddae"
+    },
+    {
+      "Text": "Hello! 👋🌟 Ready to explore ATL's amazing facilities? 🏢",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T09:30:53.645Z",
+      "_id": "68679f4d7ecb24e2ac3bddaf"
+    },
+    {
+      "Text": "event",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T09:42:06.227Z",
+      "_id": "6867a1ee38c0bc9b0d097bd5"
+    },
+    {
+      "Text": "**ATL Events & Programs** 🎪\n\n__🎯 Ongoing Series & Programs__\n• **AI + Teaching Series**\n• **InnoArts: Microcredentialing and Workshops**\n• **Transformations: Lecture Series**\n\n__🛠️ Workshops & Talks__\n• **[Feb 11, 2025] VR Filmmaking Workshop with Kath Dooley**\n• **[Feb 27, 2025] AI + Teaching Series: Developing Metacognitive Skills for Artists, Writers & Researchers in the Age of AI**\n• **[Nov 07/16, 2024] Gen AI Workshop**\n• **[Oct 24, 2024] Game Development Talk Series: Professor. Jussi Pekka HOLOPAINEN & Ms. Abby HO**\n• **[Sep 30 – Oct 04, 2024] Unreal Engine and Houdini Series**\n\n__🌐 External Events__\n• (Not yet ready, is coming soon)\n\n_For detailed information about any event, please visit the ATL website or contact us directly!_ ✨\n\n**🌐 Learn More Online**\n\n**Events & Exhibitions** 🎪\n\nDiscover upcoming events and exhibitions\n\n🔗 **Learn More**: https://www.atlab.hku.hk/events/",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T09:42:06.283Z",
+      "_id": "6867a1ee38c0bc9b0d097bd6"
+    },
+    {
+      "Text": "booking",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T09:42:11.070Z",
+      "_id": "6867a1f338c0bc9b0d097c22"
+    },
+    {
+      "Text": "**ATL Booking Information and Requirements** 🎯\n\n__Booking Process__ 📅\n\n• **All bookings must be made through a faculty advisor**\n• **Reservations require 7-30 days advance notice**\n• **Confirmation will be provided within 7 days of request**\n\nBooking is easy! Just ask your faculty advisor to help you reserve a space.\n\n**Summary** 📝: The booking process involves several steps and requirements to ensure smooth facility access! 📅✅\n\n__Booking Requirements__ 📅\n\n• **Minimum charge**: 4 hours per room\n• **Fractions of an hour are treated as full hours**\n• **Faculty advisor must submit the booking request**\n• **Users must be eligible (students with faculty supervision, etc.)**\n\nThese requirements help us keep the lab running smoothly for everyone!\n\n**Summary** 📝: The booking process involves several steps and requirements to ensure smooth facility access! 📅✅\n\n__User Responsibilities__ 🤝\n\n• **Be mindful while using rooms and equipment**\n• **Responsible for any damage to facility property**\n• **Switch off all electronic systems at the end of booking**\n• **Keep the place clean and tidy**\n• **Responsible for any irremovable marks**\n\nWe appreciate your help in keeping ATL a great place for everyone!\n\n**Summary** 📝: These guidelines help ensure everyone has a positive experience and facilities remain in good condition! 🤝🌟\n\n__XR Space__ 📌\n\n**Basic Information** ℹ️\n  • Area: 71.3 square meters\n  • Capacity: 50 people\n\n**Key Features** ✨\n  • Explore the cross-border exchange between art and technology\n  • XR Virtual Simulation System\n\n\nLet me know if you want to book XR Space or need more details!\n\n**Summary** 📝: This section provides important information about XR Space! 📌💡\n\n__Seasonal Science and Technology Room__ 📌\n\n**Basic Information** ℹ️\n  • Area: 13.2 square meters\n  • Capacity: 5 people\n\n**Key Features** ✨\n  • CAVE system supports first-person video\n\n\nLet me know if you want to book Seasonal Science and Technology Room or need more details!\n\n**Summary** 📝: This section provides important information about Seasonal Science and Technology Room! 📌💡\n\n__Lounge__ 📌\n\n**Basic Information** ℹ️\n  • Area: 65 square meters\n  • Capacity: 50 people\n\n**Key Features** ✨\n  • Sea view rest area\n  • Designed for large-scale group gatherings\n\n\nLet me know if you want to book Lounge or need more details!\n\n**Summary** 📝: This section provides important information about Lounge! 📌💡\n\n__Large Workstation__ 📌\n\n**Basic Information** ℹ️\n  • Area: 14.9 square meters\n  • Capacity: 7 people\n\n\nLet me know if you want to book Large Workstation or need more details!\n\n__Small Workstation__ 📌\n\n**Basic Information** ℹ️\n  • Area: 8.9 square meters\n  • Capacity: 5 people\n\n\nLet me know if you want to book Small Workstation or need more details!\n\n__Meeting Room__ 📌\n\n**Basic Information** ℹ️\n  • Area: 14.4 square meters\n  • Capacity: 6 people\n\n**Key Features** ✨\n  • Equipped with high-quality video and audio conference system\n  • Conduct hybrid conference technology\n\n\nLet me know if you want to book Meeting Room or need more details!\n\n**Summary** 📝: This section provides important information about Meeting Room! 📌💡\n\n__Pricing Categories__ 💰\n\n**Pricing** 💰\n  • External Organizations: Highest rates\n  • Non-UGC Non-Arts Programs: High rates\n  • UGC Non-Arts Programs: Medium rates\n  • Non-UGC Arts Programs: Lower rates\n  • UGC Arts Programs: Fees waived\n\n\nWe offer different rates for different user types!\n\n**Summary** 📝: Pricing varies based on user category, with different rates for different types of users! 💰📊\n\n__Contact Information__ 📞\n\n• **Email**: atlab@hku.hk\n• **Phone**: (+852) 3917 5801\n• **Location**: Run Run Shaw Tower (RRST-4.35), Centennial Campus\n\nReach out if you need help with booking or have any questions!\n\n**Summary** 📝: Multiple contact channels are available for questions and support! 📞💬\n\n__Which facility would you like to book?__ 📌\n\nI can provide detailed pricing and information for any specific facility.\n\nIf you have more questions, feel free to ask! 😊\nFor further assistance, you may contact ATL staff. 📧\n\n**🌐 Learn More Online**\n\n**Venue & Pricing Information** 💰\n\nCheck venue availability and pricing details\n\n🔗 **Learn More**: https://www.atlab.hku.hk/venue-info/",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T09:42:11.099Z",
+      "_id": "6867a1f338c0bc9b0d097c23"
+    }
+  ],
+  "createdAt": "2025-07-04T09:07:22.187Z",
+  "updatedAt": "2025-07-04T09:07:22.187Z",
+  "__v": 16
+}

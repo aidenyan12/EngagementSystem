@@ -1,0 +1,82 @@
+{
+  "User_Context": {
+    "Nickname": "TestUser"
+  },
+  "_id": "6865f0e07c143dc66a556f60",
+  "Chat_ID": "CHAT_mcmsl1agp52fa",
+  "User_ID": "test_user_001",
+  "Messages": [
+    {
+      "Text": "hello",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-03T02:54:30.199Z",
+      "_id": "6865f0e67c143dc66a556f65"
+    },
+    {
+      "Text": "Hello! 🎨🚀 Let's talk about ATL - what interests you? 💡",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-03T02:54:30.241Z",
+      "_id": "6865f0e67c143dc66a556f66"
+    },
+    {
+      "Text": "event",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-03T02:54:34.044Z",
+      "_id": "6865f0ea7c143dc66a556f6e"
+    },
+    {
+      "Text": "**ATL Events & Programs** 🎪\n\n__🎯 Ongoing Series & Programs__\n• **AI + Teaching Series**\n• **InnoArts: Microcredentialing and Workshops**\n• **Transformations: Lecture Series**\n\n__🛠️ Workshops & Talks__\n• **[Feb 11, 2025] VR Filmmaking Workshop with Kath Dooley**\n• **[Feb 27, 2025] AI + Teaching Series: Developing Metacognitive Skills for Artists, Writers & Researchers in the Age of AI**\n• **[Nov 07/16, 2024] Gen AI Workshop**\n• **[Oct 24, 2024] Game Development Talk Series: Professor. Jussi Pekka HOLOPAINEN & Ms. Abby HO**\n• **[Sep 30 – Oct 04, 2024] Unreal Engine and Houdini Series**\n\n__🌐 External Events__\n• (Not yet ready, is coming soon)\n\n_For detailed information about any event, please visit the ATL website or contact us directly!_ ✨\n\n**🌐 Learn More Online**\n\n**Events & Exhibitions** 🎪\n\nDiscover upcoming events and exhibitions\n\n🔗 **Learn More**: https://www.atlab.hku.hk/events/",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-03T02:54:34.077Z",
+      "_id": "6865f0ea7c143dc66a556f6f"
+    },
+    {
+      "Text": "Thank you",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-03T02:54:40.946Z",
+      "_id": "6865f0f07c143dc66a556f7b"
+    },
+    {
+      "Text": "My pleasure! 😄💻 Enjoy exploring ATL's amazing facilities! 🎉",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-03T02:54:40.953Z",
+      "_id": "6865f0f07c143dc66a556f7c"
+    },
+    {
+      "Text": "Bye",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-03T02:54:44.749Z",
+      "_id": "6865f0f47c143dc66a556f8c"
+    },
+    {
+      "Text": "Goodbye! 👋✨ Have a great day! 🌟",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-03T02:54:44.753Z",
+      "_id": "6865f0f47c143dc66a556f8d"
+    },
+    {
+      "Text": "how are you",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-03T03:21:25.437Z",
+      "_id": "6865f7358be796d4001a3640"
+    },
+    {
+      "Text": "**General Information** 🎯\n\n__Information about general__ 📌\n\nThe computational capabilities are highly advanced, featuring server-grade workstations with Nvidia RTX 4090 GPUs, high-performance workstations with MSI 4080 SUPER GPUs, i7-14700K processors, and 64GB of high-speed RAM, capable of handling intensive AI, machine learning, 3D rendering, and data analysis tasks. Capstone projects are final-year projects for senior students in the HDT (Humanities and Digital Technologies) program. Fourth-year HDT students working on their capstone projects are eligible to use the Arts Tech Lab facilities.\n\nLet me know if you need more specific details about general!\n\nIf you have more questions, feel free to ask! 😊\nFor further assistance, you may contact Arts Tech Lab at HKU staff. 📧",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-03T03:21:29.901Z",
+      "_id": "6865f7398be796d4001a3641"
+    }
+  ],
+  "createdAt": "2025-07-03T02:54:24.716Z",
+  "updatedAt": "2025-07-03T02:54:24.716Z",
+  "__v": 5,
+  "Export_Metadata": {
+    "exported_at": "2025-07-03T03:24:42.192Z",
+    "total_messages": 10,
+    "has_survey": true,
+    "survey_rating": 5,
+    "survey_suggestions": "",
+    "survey_primary_intent": "",
+    "chat_duration": 0
+  }
+}

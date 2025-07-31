@@ -1,0 +1,70 @@
+{
+  "User_Context": {
+    "Nickname": "TestUser"
+  },
+  "_id": "68679621cebbd83ed3e1058a",
+  "Chat_ID": "CHAT_mcoksfezyo8dg",
+  "User_ID": "test_user_001",
+  "Messages": [
+    {
+      "Text": "hi",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T08:52:02.345Z",
+      "_id": "68679632cebbd83ed3e105a1"
+    },
+    {
+      "Text": "Hey! 🚀🎯 What would you like to discover about ATL today? 🌟",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T08:52:02.371Z",
+      "_id": "68679632cebbd83ed3e105a2"
+    },
+    {
+      "Text": "I want to know more about events",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T08:52:10.880Z",
+      "_id": "6867963acebbd83ed3e105ae"
+    },
+    {
+      "Text": "**ATL Events & Programs** 🎪\n\n__🎯 Ongoing Series & Programs__\n• **AI + Teaching Series**\n• **InnoArts: Microcredentialing and Workshops**\n• **Transformations: Lecture Series**\n\n__🛠️ Workshops & Talks__\n• **[Feb 11, 2025] VR Filmmaking Workshop with Kath Dooley**\n• **[Feb 27, 2025] AI + Teaching Series: Developing Metacognitive Skills for Artists, Writers & Researchers in the Age of AI**\n• **[Nov 07/16, 2024] Gen AI Workshop**\n• **[Oct 24, 2024] Game Development Talk Series: Professor. Jussi Pekka HOLOPAINEN & Ms. Abby HO**\n• **[Sep 30 – Oct 04, 2024] Unreal Engine and Houdini Series**\n\n__🌐 External Events__\n• (Not yet ready, is coming soon)\n\n_For detailed information about any event, please visit the ATL website or contact us directly!_ ✨\n\n**🌐 Learn More Online**\n\n**Events & Exhibitions** 🎪\n\nDiscover upcoming events and exhibitions\n\n🔗 **Learn More**: https://www.atlab.hku.hk/events/",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T08:52:10.910Z",
+      "_id": "6867963acebbd83ed3e105af"
+    },
+    {
+      "Text": "event",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T08:52:21.477Z",
+      "_id": "68679645cebbd83ed3e105bf"
+    },
+    {
+      "Text": "**ATL Events & Programs** 🎪\n\n__🎯 Ongoing Series & Programs__\n• **AI + Teaching Series**\n• **InnoArts: Microcredentialing and Workshops**\n• **Transformations: Lecture Series**\n\n__🛠️ Workshops & Talks__\n• **[Feb 11, 2025] VR Filmmaking Workshop with Kath Dooley**\n• **[Feb 27, 2025] AI + Teaching Series: Developing Metacognitive Skills for Artists, Writers & Researchers in the Age of AI**\n• **[Nov 07/16, 2024] Gen AI Workshop**\n• **[Oct 24, 2024] Game Development Talk Series: Professor. Jussi Pekka HOLOPAINEN & Ms. Abby HO**\n• **[Sep 30 – Oct 04, 2024] Unreal Engine and Houdini Series**\n\n__🌐 External Events__\n• (Not yet ready, is coming soon)\n\n_For detailed information about any event, please visit the ATL website or contact us directly!_ ✨\n\n**🌐 Learn More Online**\n\n**Events & Exhibitions** 🎪\n\nDiscover upcoming events and exhibitions\n\n🔗 **Learn More**: https://www.atlab.hku.hk/events/",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T08:52:21.507Z",
+      "_id": "68679645cebbd83ed3e105c0"
+    },
+    {
+      "Text": "xr space",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T08:58:13.160Z",
+      "_id": "686797a50a4480b398eac291"
+    },
+    {
+      "Text": "**XR Space - Facility Details** 🎯\n\n__XR Space - Complete Information__ 📌\n\n**Basic Information** ℹ️\n  • Area: 71.3 square meters\n  • Capacity: 50 people\n\n**Key Features** ✨\n  • Explore the cross-border exchange between art and technology\n  • XR Virtual Simulation System\n  • Projection mapping technology\n  • Innovative immersive experience and collaboration platform\n\n**Hardware** 💻\n  • Nvidia RTX 4090 GPU workstation\n  • 6 NEC NP-PE456USL projectors\n  • Vaddio RoboTRAK Tracking System\n  • 2 workstations with the following configurations: CPU: i7-14700K TRAY, RAM: GSKILL TRIDENT Z5 NEO RGB 32GB X2 J32, GPU: MSI 4080 SUPER VENUS 3X OC 16G\n\n**Software** 🖥️\n  • Unreal Engine\n  • Unity\n  • Touchdesigner\n\n\nLet me know if you want to know about booking procedures or pricing for XR Space!\n\n**Summary** 📝: This section provides important information about XR Space - Complete Information! 📌💡\n\n__Pricing & Fees__ 💰\n\n**Pricing** 💰\n  • External Organizations: 1000 Hong Kong dollars/hour\n  • Non-UGC Non-Arts: 800 Hong Kong dollars/hour\n  • UGC Non-Arts: 600 Hong Kong dollars/hour\n  • Non-UGC Arts: 450 Hong Kong dollars/hour\n  • UGC Arts: Waived\n\n\nRates vary by user category. Contact ATL for booking and payment procedures.\n\n**Summary** 📝: Pricing varies based on user category, with different rates for different types of users! 💰📊\n\nIf you have more questions, feel free to ask! 😊\nFor further assistance, you may contact ATL staff. 📧",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T08:58:13.212Z",
+      "_id": "686797a50a4480b398eac292"
+    }
+  ],
+  "createdAt": "2025-07-04T08:51:45.037Z",
+  "updatedAt": "2025-07-04T08:51:45.037Z",
+  "__v": 4,
+  "Export_Metadata": {
+    "exported_at": "2025-07-04T09:07:14.639Z",
+    "total_messages": 8,
+    "has_survey": true,
+    "survey_rating": null,
+    "survey_suggestions": "",
+    "survey_primary_intent": "",
+    "chat_duration": 0
+  }
+}

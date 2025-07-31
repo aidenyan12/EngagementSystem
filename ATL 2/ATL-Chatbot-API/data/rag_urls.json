@@ -1,0 +1,24 @@
+{
+  "base_url": "https://www.atlab.hku.hk/",
+  "additional_urls": [],
+  "external_domains": [],
+  "url_patterns": {
+    "include": [
+      "**/atl/**",
+      "**/arts-tech/**",
+      "**/facilities/**"
+    ],
+    "exclude": [
+      "**/admin/**",
+      "**/private/**",
+      "**/.pdf",
+      "**/.zip"
+    ]
+  },
+  "scraping_settings": {
+    "max_pages": 50,
+    "delay_seconds": 1,
+    "timeout_seconds": 10,
+    "respect_robots_txt": true
+  }
+} 

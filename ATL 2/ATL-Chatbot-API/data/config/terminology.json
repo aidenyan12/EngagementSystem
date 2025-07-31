@@ -1,0 +1,339 @@
+{
+  "english": {
+    "replacements": [
+      {
+        "pattern": "\\b(?<!HKU )(Arts Technology Lab(?:oratory)?)(?! at HKU)(?! \\(ATL\\) at HKU)\\b",
+        "replacement": "Arts Technology Lab at HKU"
+      },
+      {
+        "pattern": "\\b(?<!HKU )(ARTS TECHNOLOGY LAB(?:ORATORY)?)(?! at HKU)\\b",
+        "replacement": "ARTS TECHNOLOGY LAB at HKU"
+      },
+      {
+        "pattern": "\\b(?<!HKU )(Arts Tech Lab(?:oratory)?)(?! at HKU)\\b",
+        "replacement": "Arts Tech Lab at HKU"
+      },
+      {
+        "pattern": "\\b(Hong Kong University|The University of Hong Kong) (Arts Technology Lab|ARTS TECHNOLOGY LAB|Arts Tech Lab)\\b",
+        "replacement": "Arts Tech Lab at HKU"
+      },
+      {
+        "pattern": "(Arts Technology Lab|ARTS TECHNOLOGY LAB|Arts Tech Lab) at The University of Hong Kong\\b",
+        "replacement": "Arts Tech Lab at HKU"
+      },
+      {
+        "pattern": "The Arts Technology Lab at HKU \\(ATL\\) at HKU",
+        "replacement": "The Arts Technology Lab (ATL) at HKU"
+      },
+      {
+        "pattern": "Arts Technology Lab at HKU \\(ATL\\) at HKU",
+        "replacement": "Arts Technology Lab (ATL) at HKU"
+      },
+      {
+        "pattern": "The Arts Technology Lab \\(Arts Tech Lab at HKU\\) at HKU",
+        "replacement": "The Arts Technology Lab at HKU"
+      },
+      {
+        "pattern": "Arts Technology Lab \\(Arts Tech Lab at HKU\\) at HKU",
+        "replacement": "Arts Technology Lab at HKU"
+      },
+      {
+        "pattern": "The Arts Tech Lab at HKU \\(ATL\\) at HKU",
+        "replacement": "The Arts Tech Lab (ATL) at HKU"
+      },
+      {
+        "pattern": "Arts Tech Lab at HKU \\(ATL\\) at HKU",
+        "replacement": "Arts Tech Lab (ATL) at HKU"
+      },
+      {
+        "pattern": "The Arts Technology Lab \\(Arts Tech Lab at HKU\\)",
+        "replacement": "The Arts Technology Lab (ATL)"
+      },
+      {
+        "pattern": "Arts Technology Lab \\(Arts Tech Lab at HKU\\)",
+        "replacement": "Arts Technology Lab (ATL)"
+      },
+      {
+        "pattern": "\\bthe Arts Technology Lab at HKU\\b",
+        "replacement": "the Arts Technology Lab at HKU"
+      },
+      {
+        "pattern": "(?<!Lab \\()(?<!Laboratory \\()\\bATL\\b(?! at HKU)(?!\\))",
+        "replacement": "Arts Tech Lab at HKU"
+      },
+      {
+        "pattern": "\\b(CUHK|Chinese University of Hong Kong)\\b",
+        "replacement": "other universities in Hong Kong"
+      },
+      {
+        "pattern": "\\b(HKUST|Hong Kong University of Science and Technology)\\b",
+        "replacement": "other universities in Hong Kong"
+      },
+      {
+        "pattern": "\\b(PolyU|Hong Kong Polytechnic University)\\b",
+        "replacement": "other universities in Hong Kong"
+      },
+      {
+        "pattern": "\\b(CityU|City University of Hong Kong)\\b",
+        "replacement": "other universities in Hong Kong"
+      },
+      {
+        "pattern": "\\b(HKBU|Hong Kong Baptist University)\\b",
+        "replacement": "other universities in Hong Kong"
+      },
+      {
+        "pattern": "\\b(EdUHK|Education University of Hong Kong)\\b",
+        "replacement": "other universities in Hong Kong"
+      },
+      {
+        "pattern": "\\b(LingU|Lingnan University)\\b",
+        "replacement": "other universities in Hong Kong"
+      },
+      {
+        "pattern": "TheUniversityofHongKong",
+        "replacement": "The University of Hong Kong"
+      },
+      {
+        "pattern": "artsandtechnology",
+        "replacement": "arts and technology"
+      },
+      {
+        "pattern": "artsand technology",
+        "replacement": "arts and technology"
+      },
+      {
+        "pattern": "arts andtechnology",
+        "replacement": "arts and technology"
+      },
+      {
+        "pattern": "XRSpace",
+        "replacement": "XR Space"
+      },
+      {
+        "pattern": "XRspace",
+        "replacement": "XR Space"
+      },
+      {
+        "pattern": "xrspace",
+        "replacement": "XR Space"
+      },
+      {
+        "pattern": "Artstech Lab",
+        "replacement": "Arts Tech Lab"
+      },
+      {
+        "pattern": "artstech lab",
+        "replacement": "Arts Tech Lab"
+      },
+      {
+        "pattern": "ArtsTechnologyLab",
+        "replacement": "Arts Technology Lab"
+      },
+      {
+        "pattern": "artstechnologylab",
+        "replacement": "Arts Technology Lab"
+      },
+      {
+        "pattern": "ArtsTechLab",
+        "replacement": "Arts Tech Lab"
+      },
+      {
+        "pattern": "artstechlab",
+        "replacement": "Arts Tech Lab"
+      },
+      {
+        "pattern": "ArtsandTechnologyLab",
+        "replacement": "Arts and Technology Lab"
+      },
+      {
+        "pattern": "artsandtechnologylab",
+        "replacement": "Arts and Technology Lab"
+      },
+      {
+        "pattern": "VRspace",
+        "replacement": "VR Space"
+      },
+      {
+        "pattern": "vrspace",
+        "replacement": "VR Space"
+      },
+      {
+        "pattern": "ARspace",
+        "replacement": "AR Space"
+      },
+      {
+        "pattern": "arspace",
+        "replacement": "AR Space"
+      },
+      {
+        "pattern": "MRspace",
+        "replacement": "MR Space"
+      },
+      {
+        "pattern": "mrspace",
+        "replacement": "MR Space"
+      },
+      {
+        "pattern": "ResearchWorkspace",
+        "replacement": "Research Workspace"
+      },
+      {
+        "pattern": "researchworkspace",
+        "replacement": "Research Workspace"
+      },
+      {
+        "pattern": "MeetingRoom",
+        "replacement": "Meeting Room"
+      },
+      {
+        "pattern": "meetingroom",
+        "replacement": "Meeting Room"
+      },
+      {
+        "pattern": "SeminarSpace",
+        "replacement": "Seminar Space"
+      },
+      {
+        "pattern": "seminarspace",
+        "replacement": "Seminar Space"
+      },
+      {
+        "pattern": "ImmersiveProjection",
+        "replacement": "Immersive Projection"
+      },
+      {
+        "pattern": "immersiveprojection",
+        "replacement": "Immersive Projection"
+      },
+      {
+        "pattern": "VirtualReality",
+        "replacement": "Virtual Reality"
+      },
+      {
+        "pattern": "virtualreality",
+        "replacement": "Virtual Reality"
+      },
+      {
+        "pattern": "AugmentedReality",
+        "replacement": "Augmented Reality"
+      },
+      {
+        "pattern": "augmentedreality",
+        "replacement": "Augmented Reality"
+      },
+      {
+        "pattern": "MixedReality",
+        "replacement": "Mixed Reality"
+      },
+      {
+        "pattern": "mixedreality",
+        "replacement": "Mixed Reality"
+      },
+      {
+        "pattern": "ExtendedReality",
+        "replacement": "Extended Reality"
+      },
+      {
+        "pattern": "extendedreality",
+        "replacement": "Extended Reality"
+      },
+      {
+        "pattern": "VirtualProduction",
+        "replacement": "Virtual Production"
+      },
+      {
+        "pattern": "virtualproduction",
+        "replacement": "Virtual Production"
+      },
+      {
+        "pattern": "3DPrinting",
+        "replacement": "3D Printing"
+      },
+      {
+        "pattern": "3dprinting",
+        "replacement": "3D Printing"
+      },
+      {
+        "pattern": "ProjectionMapping",
+        "replacement": "Projection Mapping"
+      },
+      {
+        "pattern": "projectionmapping",
+        "replacement": "Projection Mapping"
+      },
+      {
+        "pattern": "HighPerformanceComputing",
+        "replacement": "High Performance Computing"
+      },
+      {
+        "pattern": "highperformancecomputing",
+        "replacement": "High Performance Computing"
+      },
+      {
+        "pattern": "BigDataStudies",
+        "replacement": "Big Data Studies"
+      },
+      {
+        "pattern": "bigdatastudies",
+        "replacement": "Big Data Studies"
+      },
+      {
+        "pattern": "eXtendedHumanities",
+        "replacement": "eXtended Humanities"
+      },
+      {
+        "pattern": "extendedhumanities",
+        "replacement": "eXtended Humanities"
+      },
+      {
+        "pattern": "AIHumanity",
+        "replacement": "AI & Humanity"
+      },
+      {
+        "pattern": "aihumanity",
+        "replacement": "AI & Humanity"
+      },
+      {
+        "pattern": "GameMakers",
+        "replacement": "Game Makers"
+      },
+      {
+        "pattern": "gamemakers",
+        "replacement": "Game Makers"
+      },
+      {
+        "pattern": "SeedFunding",
+        "replacement": "Seed Funding"
+      },
+      {
+        "pattern": "seedfunding",
+        "replacement": "Seed Funding"
+      },
+      {
+        "pattern": "DigeratiCompetition",
+        "replacement": "Digerati Competition"
+      },
+      {
+        "pattern": "digeraticompetition",
+        "replacement": "Digerati Competition"
+      },
+      {
+        "pattern": "VisitingSpeakers",
+        "replacement": "Visiting Speakers"
+      },
+      {
+        "pattern": "visitingspeakers",
+        "replacement": "Visiting Speakers"
+      },
+      {
+        "pattern": "Microcredentialing",
+        "replacement": "Microcredentialing"
+      },
+      {
+        "pattern": "microcredentialing",
+        "replacement": "Microcredentialing"
+      }
+    ]
+  }
+}
+

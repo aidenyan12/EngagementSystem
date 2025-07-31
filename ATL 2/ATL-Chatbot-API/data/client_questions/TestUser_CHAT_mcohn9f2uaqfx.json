@@ -1,0 +1,37 @@
+{
+  "User_Context": {
+    "Nickname": "TestUser"
+  },
+  "_id": "68678181adb5e502f397da9b",
+  "Chat_ID": "CHAT_mcohn9f2uaqfx",
+  "User_ID": "test_user_001",
+  "Messages": [
+    {
+      "Text": "hello",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T07:36:17.735Z",
+      "_id": "68678471199276d5e6ed207b"
+    },
+    {
+      "Text": "Hey! 😄💻 What's on your mind about ATL? 🎯",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T07:36:17.781Z",
+      "_id": "68678471199276d5e6ed207c"
+    },
+    {
+      "Text": "hi",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-04T07:36:28.363Z",
+      "_id": "6867847c199276d5e6ed2098"
+    },
+    {
+      "Text": "Hello! 🎨🚀 Let's talk about ATL - what interests you? 💡",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-04T07:36:28.376Z",
+      "_id": "6867847c199276d5e6ed2099"
+    }
+  ],
+  "createdAt": "2025-07-04T07:23:45.139Z",
+  "updatedAt": "2025-07-04T07:23:45.139Z",
+  "__v": 2
+}

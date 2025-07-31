@@ -1,0 +1,21 @@
+{
+  "User_Context": {
+    "Nickname": "TestUser"
+  },
+  "_id": "6865f7fb40c098dc4c14e209",
+  "Chat_ID": "CHAT_mcmto0oiqgvfv",
+  "User_ID": "test_user_001",
+  "Messages": [],
+  "createdAt": "2025-07-03T03:24:43.509Z",
+  "updatedAt": "2025-07-03T03:24:43.509Z",
+  "__v": 0,
+  "Export_Metadata": {
+    "exported_at": "2025-07-03T03:24:58.417Z",
+    "total_messages": 0,
+    "has_survey": true,
+    "survey_rating": 5,
+    "survey_suggestions": "",
+    "survey_primary_intent": "",
+    "chat_duration": 0
+  }
+}

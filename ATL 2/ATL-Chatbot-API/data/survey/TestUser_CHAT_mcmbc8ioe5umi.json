@@ -1,0 +1,32 @@
+{
+  "User_Context": {
+    "Nickname": "TestUser"
+  },
+  "_id": "68657fbc2dd94856d1c74a57",
+  "Chat_ID": "CHAT_mcmbc8ioe5umi",
+  "User_ID": "TEST_USER_001",
+  "Messages": [
+    {
+      "Text": "hello",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-02T18:57:28.804Z",
+      "_id": "686581180cd10a5725b017db"
+    },
+    {
+      "Text": "Hey! 😄💻 What's on your mind about ATL? 🎯",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-02T18:57:28.842Z",
+      "_id": "686581180cd10a5725b017dc"
+    }
+  ],
+  "createdAt": "2025-07-02T18:51:40.708Z",
+  "updatedAt": "2025-07-02T18:51:40.708Z",
+  "__v": 1,
+  "Export_Metadata": {
+    "exported_at": "2025-07-02T18:57:28.851Z",
+    "total_messages": 2,
+    "has_survey": true,
+    "survey_rating": null,
+    "chat_duration": 38
+  }
+}

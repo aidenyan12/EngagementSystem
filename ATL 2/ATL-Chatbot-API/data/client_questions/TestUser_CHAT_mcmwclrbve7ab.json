@@ -1,0 +1,73 @@
+{
+  "User_Context": {
+    "Nickname": "TestUser"
+  },
+  "_id": "68660995db8b994d13d25b76",
+  "Chat_ID": "CHAT_mcmwclrbve7ab",
+  "User_ID": "test_user_001",
+  "Messages": [
+    {
+      "Text": "hi",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-03T04:39:55.952Z",
+      "_id": "6866099bdb8b994d13d25b89"
+    },
+    {
+      "Text": "Hello! 🎨🚀 Let's talk about ATL - what interests you? 💡",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-03T04:39:55.971Z",
+      "_id": "6866099bdb8b994d13d25b8a"
+    },
+    {
+      "Text": "event",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-03T04:51:40.141Z",
+      "_id": "68660c5c2424f8cc45a2b609"
+    },
+    {
+      "Text": "**ATL Events & Programs** 🎪\n\n__🎯 Ongoing Series & Programs__\n• **AI + Teaching Series**\n• **InnoArts: Microcredentialing and Workshops**\n• **Transformations: Lecture Series**\n\n__🛠️ Workshops & Talks__\n• **[Feb 11, 2025] VR Filmmaking Workshop with Kath Dooley**\n• **[Feb 27, 2025] AI + Teaching Series: Developing Metacognitive Skills for Artists, Writers & Researchers in the Age of AI**\n• **[Nov 07/16, 2024] Gen AI Workshop**\n• **[Oct 24, 2024] Game Development Talk Series: Professor. Jussi Pekka HOLOPAINEN & Ms. Abby HO**\n• **[Sep 30 – Oct 04, 2024] Unreal Engine and Houdini Series**\n\n__🌐 External Events__\n• (Not yet ready, is coming soon)\n\n_For detailed information about any event, please visit the ATL website or contact us directly!_ ✨\n\n**🌐 Learn More Online**\n\n**Events & Exhibitions** 🎪\n\nDiscover upcoming events and exhibitions\n\n🔗 **Learn More**: https://www.atlab.hku.hk/events/",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-03T04:51:40.192Z",
+      "_id": "68660c5c2424f8cc45a2b60a"
+    },
+    {
+      "Text": "asgdds",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-03T06:37:47.525Z",
+      "_id": "6866253b1ad22a30413c9d9d"
+    },
+    {
+      "Text": "**General Information** 🎯\n\n__Information about general__ 📌\n\nThe Arts Technology Lab (ATL) at HKU is a state-of-the-art facility that serves as a platform for students, faculty, and researchers to explore cutting-edge technology in the arts. It's affiliated with the Faculty of Arts at the University of Hong Kong and features various specialized spaces including XR environments, research rooms, and collaborative workspaces for interdisciplinary projects. Additional services include seating arrangement special setup for HK$1,000 (minimum 1 hour) and cleaning fee for HK$1,000 (minimum 1 hour). Both services are subject to availability and the duration is determined by the Arts Technology Lab at HKU.\n\nLet me know if you need more specific details about general!\n\nIf you have more questions, feel free to ask! 😊\nFor further assistance, you may contact ATL staff. 📧",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-03T06:37:49.953Z",
+      "_id": "6866253d1ad22a30413c9d9e"
+    },
+    {
+      "Text": "hsdhfjlhg",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-03T06:44:23.201Z",
+      "_id": "686626c781bb7127d516d7e7"
+    },
+    {
+      "Text": "I'm sorry, I'm experiencing technical difficulties. Please try again later.",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-03T06:44:23.223Z",
+      "_id": "686626c781bb7127d516d7e8"
+    },
+    {
+      "Text": "gnsdjja",
+      "Is_Bot": false,
+      "Timestamp": "2025-07-03T06:44:37.405Z",
+      "_id": "686626d581bb7127d516d816"
+    },
+    {
+      "Text": "I'm sorry, I'm experiencing technical difficulties. Please try again later.",
+      "Is_Bot": true,
+      "Timestamp": "2025-07-03T06:44:37.410Z",
+      "_id": "686626d581bb7127d516d817"
+    }
+  ],
+  "createdAt": "2025-07-03T04:39:49.803Z",
+  "updatedAt": "2025-07-03T04:39:49.803Z",
+  "__v": 5
+}

@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Project specific
+models/qwen_base/
+models/fine_tuned/checkpoint-*/
+*.log
+tmp/
+cache/
+logs/
+data/processed_data/*.arrow
+data/source_data/cache-*
+
+# Environment variables
+.env
+
+# Git
+.git/
+.gitignore
+
+# Documentation
+docs/
+README.md
+
+# Docker
+Dockerfile
+.dockerignore 
