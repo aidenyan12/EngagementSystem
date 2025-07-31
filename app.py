@@ -1,4 +1,5 @@
-"""
+i"""
+
 Streamlit Real-time Audience Voting App
 
 This application provides a simple interface for collecting votes from
@@ -18,6 +19,7 @@ The app uses a GitHub personal access token (PAT) stored in the
 the repository. Without a token, the app falls back to reading a local
 ``votes.csv`` file and cannot persist votes across sessions.
 """
+
 
 import base64
 import json
@@ -55,7 +57,7 @@ def load_votes_from_github(repo: str, path: str, branch: str = "main") -> Tuple[
     if response.status_code == 200:
         content = response.json()
         csv_str = base64.b64decode(content["content"]).decode("utf-8")
-        df = pd.read_csv(pd.compat.StringIO(csv_str))
+        
         sha = content.get("sha")
         return df, sha
     else:
@@ -124,7 +126,9 @@ def main() -> None:
     repo = "aidenyan12/EngagementSystem"
     csv_path = "votes.csv"
     branch = "main"
+ 
     # Four configurable choices
+ 
     choices = [
         "Choice A",
         "Choice B",
