@@ -8,7 +8,8 @@ This multi-page Streamlit application includes two components:
 2. An ATL chatbot interface that allows users to log in (simple in-memory
    credentials) and ask questions about the Arts Tech Lab. The chatbot
    communicates with an external API specified via secrets or environment
-   variables.
+   variables. If no valid API URL is provided, it informs the user instead of
+   attempting to contact localhost.
 
 Both components are accessible via a sidebar menu without authentication for
 voting but requiring login for the chatbot.
@@ -130,7 +131,6 @@ def ensure_logged_in() -> bool:
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
     if st.button("Login"):
-        # Example static credentials for demonstration
         credentials = {"admin": "adminpass", "user": "userpass"}
         if username in credentials and password == credentials[username]:
             st.session_state.role = username
@@ -155,21 +155,34 @@ def chat_interface():
         else:
             st.chat_message("assistant").markdown(msg["content"])
 
-    # Chat input
+    # Input field for new message
     prompt = st.chat_input("Type your message here...")
     if prompt:
+        # Save user message
         st.session_state.messages.append({"role": "user", "content": prompt})
-        api_url = st.secrets.get("chat_api_url", os.environ.get("CHAT_API_URL", "http://localhost:8000/chat"))
-        bot_reply = ""
-        try:
-            response = requests.post(api_url, json={"message": prompt})
-            if response.status_code == 200:
-                data = response.json()
-                bot_reply = data.get("response", "")
-            else:
-                bot_reply = f"API returned status code {response.status_code}"
-        except Exception as e:
-            bot_reply = f"Error contacting API: {e}"
+
+        # Retrieve API URL from secrets or environment
+        api_url = st.secrets.get("chat_api_url") or os.environ.get("CHAT_API_URL")
+
+        # If API URL is missing or points to localhost, show a helpful message
+        if not api_url or api_url.startswith("http://localhost"):
+            bot_reply = (
+                "Chatbot API URL is not configured. Please set the `chat_api_url` secret "
+                "or the `CHAT_API_URL` environment variable to a publicly accessible endpoint."
+            )
+        else:
+            # Call the external chatbot API
+            try:
+                response = requests.post(api_url, json={"message": prompt})
+                if response.status_code == 200:
+                    data = response.json()
+                    bot_reply = data.get("response", "")
+                else:
+                    bot_reply = f"API returned status code {response.status_code}"
+            except Exception as e:
+                bot_reply = f"Error contacting API: {e}"
+
+        # Save and display bot reply
         st.session_state.messages.append({"role": "assistant", "content": bot_reply})
         st.chat_message("assistant").markdown(bot_reply)
 
@@ -185,8 +198,6 @@ def chatbot_page():
 
 def main():
     st.set_page_config(page_title="Voting & Chatbot App", page_icon="🗳️", layout="centered")
-
-    # Sidebar for navigation
     page = st.sidebar.selectbox("Select a page", ["Vote", "Chatbot"])
     if page == "Vote":
         vote_page()
