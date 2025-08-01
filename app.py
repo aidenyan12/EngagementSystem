@@ -133,8 +133,15 @@ def ensure_logged_in() -> bool:
     if st.button("Login"):
         credentials = {"admin": "adminpass", "user": "userpass"}
         if username in credentials and password == credentials[username]:
+            # Set the role in session state and rerun the app to reflect the login state.
             st.session_state.role = username
-            st.experimental_rerun()
+            # Streamlit's rerun function may vary between versions. Attempt experimental_rerun
+            # first for backward compatibility and fall back to st.rerun if not available.
+            try:
+                st.experimental_rerun()  # Available in some Streamlit versions
+            except AttributeError:
+                # In newer versions, use st.rerun instead of experimental_rerun
+                st.rerun()
         else:
             st.error("Invalid credentials. Please try again.")
     return False
